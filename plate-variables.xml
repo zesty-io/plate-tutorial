@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plate_variables>
+   <kitchen>bootstrap3</kitchen>
+   <created_date>2015-11-03</created_date>
+   <created_date>2015-11-03</created_date>
+   <created_by>Zesty</created_by>
+
+ <variables>
+      <color name="body-bg" name_friendly="Body Background Color">
+         <category>1</category>
+         <description>The primary background for elements</description>
+         <sort>5</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="icon-font-name" name_friendly="Icon Font Name">
+         <category>1</category>
+         <description>The primary background for elements</description>
+         <sort>15</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA["glyphicons-halflings-regular"]]></value>
+      </text>
+      <text name="icon-font-svg-id" name_friendly="Icon SVG ID">
+         <category>1</category>
+         <description>The primary background for elements</description>
+         <sort>15</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA["glyphicons_halflingsregular"]]></value>
+      </text>
+      <text name="border-radius-base" name_friendly="Default Border Radius">
+         <category>1</category>
+         <description>The default curvature for borders around elements.</description>
+         <sort>4</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[4px]]></value>
+      </text>
+      
+      <color name="input-border" name_friendly="Form Input Background">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="input-bg" name_friendly="Form Input Border">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#cccccc]]></value>
+      </color>
+       <color name="input-border-focus" name_friendly="Input Border Focus">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="input-color-placeholder" name_friendly="Input Placeholder Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#999999]]></value>
+      </color>
+       <color name="label-color" name_friendly="Label Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="label-link-hover-color" name_friendly="Label Link HOver Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="form-group-margin-bottom" name_friendly="Form group Margin Bottom">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <color name="legend-border-color" name_friendly="Legend Border Color">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#efefef]]></value>
+      </color>
+      <color name="dropdown-bg" name_friendly="Dropdown Background">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fff]]></value>
+      </color>
+      <color name="dropdown-border" name_friendly="Dropdown Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[rgba(0,0,0,.15)]]></value>
+      </color>
+      <color name="dropdown-fallback-border" name_friendly="Dropdown Fallback Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ccc]]></value>
+      </color>
+      <color name="dropdown-divider-color" name_friendly="Dropdown Divider Color">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#e5e5e5]]></value>
+      </color>
+      <color name="dropdown-link-hover-color" name_friendly="Dropdown Link Hover Color">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="dropdown-caret-color" name_friendly="Dropdown Caret Color">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#000000]]></value>
+      </color>
+      <text name="table-cell-padding" name_friendly="Table Cell Padding">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[8px]]></value>
+      </text>
+      <text name="table-condensed-cell-padding" name_friendly="Table Condensed Cell Padding">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[5px]]></value>
+      </text>
+      <color name="table-bg" name_friendly="Table Background">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[transparent]]></value>
+      </color>
+      <color name="table-bg-accent" name_friendly="Table Background Accent">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f9f9f9]]></value>
+      </color>
+      <color name="table-bg-hover" name_friendly="Table Background Hover">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="table-border-color" name_friendly="Table Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="pagination-bg" name_friendly="Pagination Background">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="pagination-border" name_friendly="Pagination Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="pagination-hover-border" name_friendly="Pagination Hover Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="pagination-active-border" name_friendly="Pagination Active Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="pagination-disabled-border" name_friendly="Pagination Disabled Border">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="pagination-disabled-bg" name_friendly="Pagination Disabled Background">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="pager-border-radius" name_friendly="Pager Border Radius">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <text name="jumbotron-padding" name_friendly="Jumbotron Padding">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[30px]]></value>
+      </text>
+      <color name="jumbotron-color" name_friendly="Jumbotron Color">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[inherit]]></value>
+      </color>
+      <color name="jumbotron-heading-color" name_friendly="Jumbotron Heading Color">
+         <category>7</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[inherit]]></value>
+      </color>
+       <color name="state-success-text" name_friendly="Form Success Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#3c763d]]></value>
+      </color>
+      <color name="state-success-bg" name_friendly="Form Success Background">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dff0d8]]></value>
+      </color>
+      <color name="state-info-text" name_friendly="Form Info Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#31708f]]></value>
+      </color>
+      <color name="state-info-bg" name_friendly="Form Info Background">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#d9edf7]]></value>
+      </color>
+      <color name="state-warning-text" name_friendly="Form Warning Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#8a6d3b]]></value>
+      </color>
+      <color name="state-warning-bg" name_friendly="Form Warning Background">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fcf8e3]]></value>
+      </color>
+      <color name="state-danger-text" name_friendly="Form Danger Color">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#a94442]]></value>
+      </color>
+      <text name="tooltip-max-width" name_friendly="Tool Tip Max Width">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[200px]]></value>
+      </text>
+      <color name="tooltip-color" name_friendly="Tooltip Color">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="tooltip-bg" name_friendly="Tooltip Background">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#000000]]></value>
+      </color>
+      <text name="tooltip-opacity" name_friendly="Tool Tip Opacity">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[0.9]]></value>
+      </text>
+      <text name="tooltip-arrow-width" name_friendly="Tool Tip Arrow Width">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[5px]]></value>
+      </text>
+      <text name="modal-inner-padding" name_friendly="Modal Inner Padding">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <text name="modal-title-padding" name_friendly="Modal Title Padding">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <color name="modal-content-bg" name_friendly="Modal Content Background">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="modal-content-border-color" name_friendly="Modal Content Border Color">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[rgba(0,0,0,0.2)]]></value>
+      </color>
+      <color name="modal-content-fallback-border-color" name_friendly="Modal Content Fallback Border Color">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#999999]]></value>
+      </color>
+      <color name="modal-backdrop-bg" name_friendly="Modal Backdrop Background">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#000000]]></value>
+      </color>
+      <text name="modal-backdrop-opacity" name_friendly="Modal Backdrop Opacity">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[0.5]]></value>
+      </text>
+      <color name="modal-header-border-color" name_friendly="Modal Header Border Color">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#e5e5e5]]></value>
+      </color>
+      <text name="modal-lg" name_friendly="Modal Large Width">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[900px]]></value>
+      </text>
+      <text name="modal-md" name_friendly="Modal Medium Width">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[600px]]></value>
+      </text>
+      <text name="modal-sm" name_friendly="Modal Small Width">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[300px]]></value>
+      </text>
+      <text name="alert-padding" name_friendly="Alert Padding">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <dropdown name="alert-link-font-weight" name_friendly="Alert Link Font Weight">
+         <category>9</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[bold]]></value>
+         <options>
+            <option description="100" value="100" />
+            <option description="200" value="200" />
+            <option description="300" value="300" />
+            <option description="400" value="400" />
+            <option description="500" value="500" />
+            <option description="600" value="600" />
+            <option description="700" value="700" />
+            <option description="800" value="800" />
+            <option description="900" value="900" />
+         </options>
+      </dropdown>
+      <color name="state-danger-bg" name_friendly="Form Danger Background">
+         <category>10</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f2dede]]></value>
+      </color>
+      <color name="navbar-default-bg" name_friendly="Navigation Background Color">
+         <category>4</category>
+         <description>The active color for links</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f8f8f8]]></value>
+      </color>
+      <text name="navbar-height" name_friendly="Navigation Height">
+         <category>4</category>
+         <description>The visited color for links</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[50px]]></value>
+      </text>
+      <text name="navbar-collapse-max-height" name_friendly="Navigation Collapse Max Height">
+         <category>4</category>
+         <description>The visited color for links</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[340px]]></value>
+      </text>
+      <color name="navbar-default-color" name_friendly="Navigation Font Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#777777]]></value>
+      </color>
+      <color name="navbar-default-link-color" name_friendly="Navigation Link Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#777777]]></value>
+      </color>
+      <text name="nav-link-padding" name_friendly="Navigation Link Padding">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[10px 15px]]></value>
+      </text>
+      <color name="navbar-default-link-hover-color" name_friendly="Navigation Hover Font Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#333333]]></value>
+      </color>
+      <color name="navbar-default-link-hover-bg" name_friendly="Navigation Hover Background Color">
+         <category>4</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[rgba(255,255,255,0)]]></value>
+      </color>
+      <color name="navbar-default-link-active-color" name_friendly="Navigation Active Font Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#555555]]></value>
+      </color>
+      <color name="navbar-default-link-disabled-color" name_friendly="Navigation Disabled Font Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#cccccc]]></value>
+      </color>
+      <color name="navbar-default-link-disabled-bg" name_friendly="Navigation Disabled Background">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[transparent]]></value>
+      </color>
+      <color name="navbar-default-brand-hover-bg" name_friendly="Navigation Brand Hover Background">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[transparent]]></value>
+      </color>
+      <color name="navbar-default-toggle-hover-bg" name_friendly="Navigation Toggle Hover Background">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="navbar-default-toggle-icon-bar-bg" name_friendly="Navigation Toggle Icon Bar Background">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#888888]]></value>
+      </color>
+      <color name="navbar-default-toggle-border-color" name_friendly="Navigation Toggle Border Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="navbar-inverse-bg" name_friendly="Navigation Inverse Background Color">
+         <category>4</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#222222]]></value>
+      </color>
+      <color name="navbar-inverse-link-hover-color" name_friendly="Navigation Inverse Link Hover Color">
+         <category>4</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="navbar-inverse-link-hover-bg" name_friendly="Navigation Inverse Link Hover Background">
+         <category>4</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[transparent]]></value>
+      </color>
+      <color name="navbar-inverse-link-disabled-color" name_friendly="Navigation Inverse Link Disabled Color">
+         <category>4</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#444444]]></value>
+      </color>
+      <color name="navbar-inverse-link-disabled-bg" name_friendly="Navigation Inverse Link Disabled Background">
+         <category>4</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[transparent]]></value>
+      </color>
+      <color name="navbar-inverse-toggle-hover-bg" name_friendly="Navigation Toggle Hover Background">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#333333]]></value>
+      </color>
+      <color name="navbar-inverse-toggle-icon-bar-bg" name_friendly="Navigation Toggle Icon Bar Background">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="navbar-inverse-toggle-border-color" name_friendly="Navigation Toggle Border Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#333333]]></value>
+      </color>
+      <color name="nav-tabs-border-color" name_friendly="Navigation Tabs Border Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="nav-tabs-active-link-hover-border-color" name_friendly="Navigation Tabs Active Hover Border Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="nav-tabs-justified-link-border-color" name_friendly="Navigation Tabs Justified Borrer Color">
+         <category>4</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
+         <category>3</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[underline]]></value>
+         <options>
+            <option description="Underline" value="underline" />
+            <option description="None" value="none" />
+         </options>
+      </dropdown>
+      <font_picker name="font-family-sans-serif" name_friendly="Main Sans-Serif Body Font">
+         <category>2</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA["Helvetica Neue", Helvetica, Arial, sans-serif]]></value>
+      </font_picker>
+      <font_picker name="font-family-serif" name_friendly="Serif Font">
+         <category>2</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[Georgia, "Times New Roman", Times, serif]]></value>
+      </font_picker>
+      <font_picker name="font-family-monospace" name_friendly="Monospace Font">
+         <category>2</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[Menlo, Monaco, Consolas, "Courier New", monospace]]></value>
+      </font_picker>
+      <text name="font-size-base" name_friendly="Default Font Size">
+         <category>2</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[14px]]></value>
+      </text>
+      <font_picker name="headings-font-family" name_friendly="Heading Font">
+         <category>2</category>
+         <description />
+         <sort>9</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[inherit]]></value>
+      </font_picker>
+      <text name="line-height-base" name_friendly="Paragraph line Height">
+         <category>2</category>
+         <description />
+         <sort>7</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[1.428571429]]></value>
+      </text>
+      <color name="btn-default-color" name_friendly="Button Font Color">
+         <category>6</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#333333]]></value>
+      </color>
+      <text name="btn-font-weight" name_friendly="Button Font Weight">
+         <category>6</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[Normal]]></value>
+      </text>
+      <text name="btn-border-radius-base" name_friendly="Button Border Radius">
+         <category>6</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[4px]]></value>
+      </text>
+      <color name="btn-default-bg" name_friendly="Button Background Color">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="btn-default-border" name_friendly="Button Border">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#cccccc]]></value>
+      </color>
+      <color name="btn-primary-border" name_friendly="Primary Button Color">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fff]]></value>
+      </color>
+      <color name="btn-success-border" name_friendly="Primary Success Color">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fff]]></value>
+      </color>
+      <color name="btn-info-border" name_friendly="Primary Info Color">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fff]]></value>
+      </color>
+      <color name="btn-warning-border" name_friendly="Primary Warning Color">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fff]]></value>
+      </color>
+      <color name="btn-danger-border" name_friendly="Primary Danger Color">
+         <category>6</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#fff]]></value>
+      </color>
+      <text name="container-large-desktop" name_friendly="Container Max Width">
+         <category>1</category>
+         <description />
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[1160px]]></value>
+      </text>
+      <color name="headings-color" name_friendly="Headings Font Color">
+         <category>2</category>
+         <description />
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[inherit]]></value>
+      </color>
+      <color name="gray-base" name_friendly="Base Dark Color">
+         <category>1</category>
+         <description/>
+         <sort>3</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#000000]]></value>
+      </color>
+      <color name="brand-primary" name_friendly="Brand Color">
+         <category>1</category>
+         <description>This color is used for hairlines, borders, even color on tables, and general aesthetics</description>
+         <sort>3</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#337ab7]]></value>
+      </color>
+      <color name="brand-success" name_friendly="Brand Success Color">
+         <category>1</category>
+         <description/>
+         <sort>3</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#5cb85c]]></value>
+      </color>
+      <color name="brand-info" name_friendly="Brand Info Color">
+         <category>1</category>
+         <description/>         <sort>3</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#5bc0de]]></value>
+      </color>
+      <color name="brand-warning" name_friendly="Brand Warning Color">
+         <category>1</category>
+         <description/>
+         <sort>3</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f0ad4e]]></value>
+      </color>
+      <color name="brand-danger" name_friendly="Brand Danger Color">
+         <category>1</category>
+         <description/>
+         <sort>3</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#d9534f]]></value>
+      </color>
+      <text name="grid-gutter-width" name_friendly="Grid Gutter Width">
+         <category>8</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[30px]]></value>
+      </text>
+      <text name="grid-columns" name_friendly="Number of Grid Columns">
+         <category>8</category>
+         <description>NULL</description>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[12]]></value>
+      </text>
+      <dropdown name="headings-font-weight" name_friendly="Headings Font Weight">
+         <category>2</category>
+         <description>NULL</description>
+         <sort>9</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[500]]></value>
+         <options>
+            <option description="100" value="100" />
+            <option description="200" value="200" />
+            <option description="300" value="300" />
+            <option description="400" value="400" />
+            <option description="500" value="500" />
+            <option description="600" value="600" />
+            <option description="700" value="700" />
+            <option description="800" value="800" />
+            <option description="900" value="900" />
+         </options>
+      </dropdown>
+      <text name="headings-line-height" name_friendly="Headings Line Height">
+         <category>2</category>
+         <description>NULL</description>
+         <sort>9</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[1.1]]></value>
+      </text>
+      <color name="progress-bg" name_friendly="Progress Background">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="progress-bar-color" name_friendly="Progress Bar Color">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="list-group-bg" name_friendly="List Group Background">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="list-group-border" name_friendly="List Group Border">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="list-group-hover-bg" name_friendly="List Group Hover Background">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="list-group-link-color" name_friendly="List Group Link Color">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#555555]]></value>
+      </color>
+      <color name="list-group-link-heading-color" name_friendly="List Group Link Heading Color">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#333333]]></value>
+      </color>
+      <color name="panel-bg" name_friendly="Panel Background">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="panel-body-padding" name_friendly="Panel Body Padding">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <text name="panel-heading-padding" name_friendly="Panel Heading Padding">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[10px 15px]]></value>
+      </text>
+      <color name="panel-inner-border" name_friendly="Panel Inner Border">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="panel-footer-bg" name_friendly="Panel Footer Background">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="panel-default-border" name_friendly="Panel Default Border">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <color name="panel-default-heading-bg" name_friendly="Panel Default Heading Background">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="panel-primary-text" name_friendly="Panel Primary Text">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="thumbnail-padding" name_friendly="Thumbnail Padding">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[4px]]></value>
+      </text>
+      <color name="thumbnail-border" name_friendly="Thumbnail Border">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#dddddd]]></value>
+      </color>
+      <text name="thumbnail-caption-padding" name_friendly="Thumbnail Caption Padding">
+         <category>11</category>
+         <description/>
+         <sort>1</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[9px]]></value>
+      </text>
+      <color name="popover-bg" name_friendly="Popover Background">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="popover-max-width" name_friendly="Popover Max Width">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[276px]]></value>
+      </text>
+      <color name="popover-border-color" name_friendly="Popover Border Color">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[rgba(0,0,0,.2)]]></value>
+      </color>
+      <color name="popover-fallback-border-color" name_friendly="Popover Fallback Border Color">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#cccccc]]></value>
+      </color>
+      <text name="popover-arrow-width" name_friendly="Popover Arrow Width">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[10px]]></value>
+      </text>
+      <color name="well-bg" name_friendly="Well Background">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="badge-color" name_friendly="Badge Color">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="badge-link-hover-color" name_friendly="Badge Link Hover Color">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="badge-active-bg" name_friendly="Badge Active Background">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <dropdown name="badge-font-weight" name_friendly="Badge Font Weight">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[500]]></value>
+         <options>
+            <option description="100" value="100" />
+            <option description="200" value="200" />
+            <option description="300" value="300" />
+            <option description="400" value="400" />
+            <option description="500" value="500" />
+            <option description="600" value="600" />
+            <option description="700" value="700" />
+            <option description="800" value="800" />
+            <option description="900" value="900" />
+         </options>
+      </dropdown>
+      <text name="badge-line-height" name_friendly="Badge Line Height">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[1]]></value>
+      </text>
+      <text name="badge-border-radius" name_friendly="Badge Border Radius">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[10px]]></value>
+      </text>
+      <text name="breadcrumb-padding-vertical" name_friendly="Breadcrumb Padding Vertical">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[8px]]></value>
+      </text>
+      <text name="breadcrumb-padding-horizontal" name_friendly="Breadcrumb Padding Horizontal">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15px]]></value>
+      </text>
+      <color name="breadcrumb-bg" name_friendly="Breadcrumb Background">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="breadcrumb-color" name_friendly="Breadcrumb Color">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#cccccc]]></value>
+      </color>
+      <text name="breadcrumb-separator" name_friendly="Breadcrumb Separator">
+         <category>11</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA["//"]]></value>
+      </text>
+      <text name="carousel-text-shadow" name_friendly="Carousel Text Shadow">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[0 1px 2px rgba(0,0,0,.6)]]></value>
+      </text>
+      <color name="carousel-control-color" name_friendly="Carousel Control Color">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <text name="carousel-control-width" name_friendly="Carousel Control Width">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[15%]]></value>
+      </text>
+       <text name="carousel-control-opacity" name_friendly="Carousel Control Opacity">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[.5]]></value>
+      </text>
+      <text name="carousel-control-font-size" name_friendly="Carousel Control Font Size">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[20px]]></value>
+      </text>
+      <color name="carousel-indicator-active-bg" name_friendly="Carousel Indicator Active Background">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="carousel-indicator-border-color" name_friendly="Carousel Indicator Border Color">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="carousel-caption-color" name_friendly="Carousel Caption Color">
+         <category>9</category>
+         <description/>
+         <sort>10</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <dropdown name="close-font-weight" name_friendly="Close Font Weight">
+         <category>9</category>
+         <description/>
+         <sort>15</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[500]]></value>
+         <options>
+            <option description="100" value="100" />
+            <option description="200" value="200" />
+            <option description="300" value="300" />
+            <option description="400" value="400" />
+            <option description="500" value="500" />
+            <option description="600" value="600" />
+            <option description="700" value="700" />
+            <option description="800" value="800" />
+            <option description="900" value="900" />
+         </options>
+      </dropdown>
+      <color name="close-color" name_friendly="Close Color">
+         <category>9</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#000000]]></value>
+      </color>
+      <text name="close-text-shadow" name_friendly="close Text Shadow">
+         <category>9</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[0 1px 0px #ffffff]]></value>
+      </text>
+      <color name="code-color" name_friendly="Code Color">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#c7254e]]></value>
+      </color>
+      <color name="code-bg" name_friendly="Code Background">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f9f2f4]]></value>
+      </color>
+      <color name="kbd-color" name_friendly="KBD Color">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+      <color name="kbd-bg" name_friendly="KBD Background">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#333333]]></value>
+      </color>
+      <color name="pre-bg" name_friendly="Pre Background">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#f5f5f5]]></value>
+      </color>
+      <color name="pre-border-color" name_friendly="Pre Border Color">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#cccccc]]></value>
+      </color>
+      <text name="pre-scrollable-max-height" name_friendly="Pre Scrollable Max Height">
+         <category>11</category>
+         <description/>
+         <sort>11</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[340px]]></value>
+      </text>
+   </variables>
+
+</plate_variables>
