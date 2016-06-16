@@ -2,7 +2,8 @@
 /* taken and modified from the Purecss.io example: http://purecss.io/layouts/side-menu/ */
 
 body {
-    color: @body-bg-color;
+    background-color: @body-bg-color;
+	color: @paragraph-font-color;
 }
 
 .pure-img-responsive {
@@ -34,19 +35,30 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+	position: relative;
+	li {
+		position: relative;		
+		padding: 0;
+		margin: 0;
+		height: 100%;	
+		a {
+			display: block;
+			text-decoration: none;
+			white-space: nowrap;	
+		}
+		ul {
+			margin: 0;
+    		padding: 0;
+			li {
+				border-left: 3px  solid;	
+				a {
+					font-size: 80%;	
+				}
+			}
+		}
+	}
 }
 
-#nav li {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-}
-
-#nav li a {
-display: block;
-    text-decoration: none;
-    white-space: nowrap;	
-}
 /*
 Add transition to containers so they can push in and out.
 */
@@ -81,7 +93,7 @@ The content `<div>` is where all your content goes.
 .content, .recipe-wrap {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 800px;
+    max-width: @container-max-width;
     margin-bottom: 50px;
     line-height: 1.6em;
 }
@@ -90,10 +102,15 @@ The content `<div>` is where all your content goes.
 	margin: 0.2em 0 20px 0;
 	font-size: 3em;
 	font-weight: 300;
-	color: #333;
-	
+	color: @h1-font-color;
+	line-height: 1.4em;
 	padding: 2.5em 0 .5em;
 	border-bottom: 1px solid #eee;
+	
+	a {
+		text-decoration: none;
+		color: @h1-font-color;
+	}
 }
 
 .header {
@@ -107,10 +124,11 @@ The content `<div>` is where all your content goes.
         margin: 0.2em 0;
         font-size: 3em;
         font-weight: 300;
+		color: @h1-font-color;
     }
      .header h2 {
         font-weight: 300;
-        color: #ccc;
+        color: @h2-font-color;
         padding: 0;
         margin-top: 0;
     }
@@ -118,7 +136,7 @@ The content `<div>` is where all your content goes.
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #888;
+    color: @h6-font-color;
 }
 
 
@@ -139,16 +157,13 @@ appears on the left side of the page.
     background: #191818;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-}
-    /*
-    All anchors inside the menu should be styled like this.
-    */
-    #menu a {
+	a {
         color: #999;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
-
+}
+  
     /*
     Remove all background/borders, since we are applying them to #menu.
     */
