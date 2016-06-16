@@ -1,0 +1,90 @@
+
+body {
+    background-color: @body-bg-color;
+	color: @paragraph-font-color;
+	font-family: @default-font;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+The content `<div>` is where all your content goes.
+*/
+.content, .recipe-wrap {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: @container-max-width;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+	a {
+		color: @link-color;
+		text-decoration: none;
+	}
+}
+
+.recipe-wrap h1:first-of-type {
+	margin: 0.2em 0 20px 0;
+	font-size: 3em;
+	font-weight: 300;
+	color: @h1-font-color;
+	line-height: 1.4em;
+	padding: 2.5em 0 .5em;
+	border-bottom: 1px solid #eee;
+	
+	a {
+		text-decoration: none;
+		color: @h1-font-color;
+	}
+}
+
+.header {
+     margin: 0;
+     color: #333;
+     text-align: center;
+     padding: 2.5em 2em 0;
+     border-bottom: 1px solid #eee;
+	h1{
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+		color: @h1-font-color;
+    }
+	h2 {
+        font-weight: 300;
+        color: @h2-font-color;
+        padding: 0;
+        margin-top: 0;
+    }
+}
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: @h4-font-color;
+}
+
+.side-bar {
+	h5, h5 a {
+		color: 	@h5-font-color;
+		font-size: @h5-font-size;
+		text-decoration: none;
+		margin-bottom: 10px;
+	}
+	ul {
+		padding: 0;
+		margin: 0;
+		li {
+			list-style:none;
+			a {
+				color: lighten(@h5-font-color,15%);
+				text-decoration: none;
+			}
+		}
+	}
+	
+}
+

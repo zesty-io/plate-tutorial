@@ -12,7 +12,7 @@
 			<sort>5</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#d7d7d7]]></value>
+			<value><![CDATA[#e8e8e8]]></value>
 		</color>
 		<image name="body-bg-image" name_friendly="Body Background Image">		
 			<category>1</category>
@@ -248,7 +248,7 @@
 			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA['Arial', 'Arial', 'Helvetica', 'sans-serif']]></value>
+			<value><![CDATA['Helvetica', 'Arial', 'Helvetica', 'sans-serif']]></value>
 		</font_picker>
 		<color name="default-font-color" name_friendly="Default Font Color">		
 			<category>2</category>
