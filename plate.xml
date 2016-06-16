@@ -11,7 +11,7 @@
         <item link_title="Homepage" path_part="zesty_home">
           <title><![CDATA[Zesty.io Tutorial]]></title>
           <content><![CDATA[<p>This is a tutorial template made for you to learn Zesty.io</p>]]></content>
-          <image><![CDATA[https://be93523bd41e2e475e74-e4edef19ad51123442eaceed55c78461.ssl.cf2.rackcdn.com/or-homepage1.png]]></image>
+          <image><![CDATA[https://raw.githubusercontent.com/ardeay/plate-tutorial/master/shield.png]]></image>
         </item>
       </items>
     </templateset>
@@ -19,7 +19,7 @@
 
   <clippings>
     <text name="site_name" name_friendly="Site Name" required="1">
-      <![CDATA[Zesty.io Tutorial]]>
+      <![CDATA[Tutorial]]>
     </text>
     <images name="logo" name_friendly="Site Logo" limit="1" />
     <text name="footer_text" name_friendly="Footer Text">
@@ -34,14 +34,13 @@
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"/>
 
   </head>
-  <!--
+
   <settings>
-    <setting category="developer" name="parsley_2_enabled" label="Parsley 2?" type="checkbox"  options="0,1"><![CDATA[1]]></setting>
-    <setting category="developer" name="parsley_2_enabled_for_dev" label="Parsley 2 For Stage Dev" type="checkbox" options="0,1"><![CDATA[1]]></setting>
+    <setting category="developer" name="parsley_2_enabled" label="Parsley 2?" type="checkbox"  options="0,1"><![CDATA[0]]></setting>
+    <setting category="developer" name="parsley_2_enabled_for_dev" label="Parsley 2 For Stage Dev" type="checkbox" options="0,1"><![CDATA[0]]></setting>
   </settings>
-  -->
+
 
 </plate>
