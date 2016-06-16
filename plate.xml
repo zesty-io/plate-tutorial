@@ -32,15 +32,8 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
+    <link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css"/>
 
   </head>
-
-  <settings>
-    <setting category="developer" name="parsley_2_enabled" label="Parsley 2?" type="checkbox"  options="0,1"><![CDATA[0]]></setting>
-    <setting category="developer" name="parsley_2_enabled_for_dev" label="Parsley 2 For Stage Dev" type="checkbox" options="0,1"><![CDATA[0]]></setting>
-  </settings>
-
 
 </plate>
