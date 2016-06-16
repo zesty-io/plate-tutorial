@@ -1,2 +1,2 @@
-# plate-boostrap-3.3.5
-Zesty plate implementation of the Bootstrap 3.3.5 theme.
+# Zesty.io Tutorial Template
+This plate uses Purecss.io as an example to launch a Zesty.io site
