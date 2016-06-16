@@ -12,7 +12,7 @@
 			<sort>5</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#e8e8e8]]></value>
+			<value><![CDATA[#ffffff]]></value>
 		</color>
 		<image name="body-bg-image" name_friendly="Body Background Image">		
 			<category>1</category>
